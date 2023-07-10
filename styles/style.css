@@ -1,8 +1,21 @@
-
-
-*{
+/* common shared styles*/
+body {
     font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
+
+
+.btn-primary {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
 
 /* header related styles */
 .header {
@@ -42,5 +55,5 @@
     width: 400px;
 }
 .banner-content {
-    max-width: 700px;
+    max-width: 750px;
 }
