@@ -1,9 +1,43 @@
 /* common shared styles*/
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     margin: 0px;
     padding: 0px;
+}
+
+/* Nav Bar */
+
+
+.navbar{
+    
+    position: fixed;
+}
+.nav-icon{
+    display: flex;
+    gap: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 5px 50px;
+    color: #E55473;
+}
+nav button{
+    padding: 10px 20px;
+    font-size: medium;
+    background-color: #E55473;
+    color: white;
+    font-weight: 500;
+    border: none;
+    margin-left: 5px;
+}
+nav input{
+    padding: 10px;
+    border: solid #E55473 2px;
+    border-radius: 2px;
 }
 
 
