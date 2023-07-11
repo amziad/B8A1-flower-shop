@@ -75,7 +75,7 @@ body {
     align-content: center;
     align-items: center;
     margin: 100px 0px;
-    padding: 50px 200px;
+    padding: 50px 100px;
 }
 
 
@@ -132,6 +132,11 @@ body {
     padding-bottom: 30px;
 }
 
+.img-f-3{
+    width: 60%;
+    height: 90%;
+}
+
 
 .flower-div div h5 {
     color: #272727;
@@ -163,4 +168,29 @@ body {
     color: #fffff6e6;
     font-size: 18px;
     font-weight: 400;
+}
+
+
+
+/* Instagram */
+
+.inst-section{
+    margin: 100px;
+}
+
+
+.inst-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.inst-pic img{
+    width: 280px;
+    height: auto;
+}
+
+.inst-header{
+    text-align: center;
+    padding: 30px;
 }
