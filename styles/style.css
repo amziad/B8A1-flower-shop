@@ -237,6 +237,7 @@ nav input{
 .sub-container{
     margin: 0px 118px 100px;
     display: flex;
+    justify-content: center;
     background-image: url('../flower-asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: cover;
