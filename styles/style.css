@@ -74,7 +74,7 @@ body {
     text-align: center;
     align-content: center;
     align-items: center;
-    margin: 100px 0px;
+    margin: 100px 0px 0px;
     padding: 50px 100px;
 }
 
@@ -175,7 +175,7 @@ body {
 /* Instagram */
 
 .inst-section{
-    margin: 100px;
+    margin: 50px 100px 100px;
 }
 
 
@@ -186,11 +186,38 @@ body {
 }
 
 .inst-pic img{
-    width: 280px;
-    height: auto;
+    width: auto;
+    height: 300px;
 }
 
 .inst-header{
     text-align: center;
     padding: 30px;
+}
+
+
+/* Subscribe Section */
+
+.sub-container{
+    margin: 0px 100px 100px;
+    display: flex;
+    background-image: url('../flower-asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px;
+    border-radius: 10px;
+    
+}
+
+.email-primary {
+    padding: 0px  0px 0px 20px;
+    width: 600px;
+    height: 64px;  
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sub-header{
+    padding: 0px 0px 20px;
+    text-align: center;
 }
