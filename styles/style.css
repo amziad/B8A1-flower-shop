@@ -5,7 +5,7 @@ body {
 }
 
 
-.primary-color{
+.primary-color {
     color: #E55473;
 }
 
@@ -17,7 +17,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-    
+
 }
 
 
@@ -58,6 +58,7 @@ body {
 .banner .profile-pic {
     width: 400px;
 }
+
 .banner-content {
     max-width: 750px;
     margin-bottom: 20px;
@@ -68,6 +69,7 @@ body {
 .sale-container {
     background: #E554731A;
     display: flex;
+    justify-content: space-around;
     gap: 50px;
     text-align: center;
     align-content: center;
@@ -78,11 +80,68 @@ body {
 
 
 
-.item-title{
+.item-title {
     font-size: 40px;
     font-weight: 800;
     margin-top: 5px;
     margin-bottom: 16px;
+}
+
+/* featured flower */
+
+.flower-heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.featured-flower-container{
+    margin: 100px;
+}
+
+
+.flower-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.flower-div div{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    border-radius: 300px 300px 0px 0px;
+    align-items: flex-end;
+}
+
+.flower-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-f-1{
+    width: 60%;
+    height: 80%;
+}
+
+.img-f-2{
+    width: 80%;
+    height: 80%;
+    padding-bottom: 30px;
+}
+
+
+.flower-div div h5 {
+    color: #272727;
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration-line: underline;
 }
 
 
@@ -100,7 +159,7 @@ body {
     font-size: 16px;
 }
 
-.footer-item-heading{
+.footer-item-heading {
     color: #fffff6e6;
     font-size: 18px;
     font-weight: 400;
