@@ -5,6 +5,9 @@ body {
 }
 
 
+.primary-color{
+    color: #E55473;
+}
 
 .btn-primary {
     border-radius: 5px;
@@ -14,6 +17,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    
 }
 
 
@@ -56,4 +60,29 @@ body {
 }
 .banner-content {
     max-width: 750px;
+    margin-bottom: 20px;
+}
+
+
+/* Sale Section styles */
+.sale-container {
+    background: #E554731A;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 100px 0px;
+    padding: 50px 200px;
+}
+
+.sale-column {
+
+}
+
+.sale-item-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 16px;
 }
