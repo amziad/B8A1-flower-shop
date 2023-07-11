@@ -43,7 +43,7 @@ body {
 }
 
 
-.banner-description {
+.item-description {
     color: #27272799;
     font-size: 16px;
 }
@@ -76,13 +76,32 @@ body {
     padding: 50px 200px;
 }
 
-.sale-column {
 
-}
 
-.sale-item-title{
+.item-title{
     font-size: 40px;
     font-weight: 800;
     margin-top: 5px;
     margin-bottom: 16px;
+}
+
+
+/* Footer */
+
+.footer-column {
+    padding: 130px;
+    background-color: #111010;
+    text-align: center;
+
+}
+
+.footer-item-description {
+    color: #ffffff66;
+    font-size: 16px;
+}
+
+.footer-item-heading{
+    color: #fffff6e6;
+    font-size: 18px;
+    font-weight: 400;
 }
