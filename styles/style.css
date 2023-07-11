@@ -2,6 +2,8 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -15,7 +17,7 @@ body {
     border: 0;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     padding: 15px 35px;
 
 }
@@ -139,9 +141,8 @@ body {
 
 
 .flower-div div h5 {
-    color: #272727;
+    color: #272727d7;
     text-align: center;
-
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -212,12 +213,44 @@ body {
 .email-primary {
     padding: 0px  0px 0px 20px;
     width: 600px;
-    height: 64px;  
+    height: 55px;  
     font-size: 16px;
     font-weight: 400;
+    border: none;
+    border-radius: 8px;
 }
+
 
 .sub-header{
     padding: 0px 0px 20px;
     text-align: center;
+}
+
+
+/* Service section */
+
+.service-container{
+    margin: 0px 100px 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+}
+
+.service-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.service-div h5{
+    color: #272727cc;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+
 }
