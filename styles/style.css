@@ -1,4 +1,5 @@
 /* common shared styles*/
+
 body {
     font-family: 'Lato', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
@@ -6,17 +7,14 @@ body {
     padding: 0px;
 }
 
+
 /* Nav Bar */
 
-
-.navbar{
-    
-    position: fixed;
-}
 .nav-icon{
     display: flex;
     gap: 10px;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -25,6 +23,7 @@ nav{
     padding: 5px 50px;
     color: #E55473;
 }
+
 nav button{
     padding: 10px 20px;
     font-size: medium;
@@ -34,12 +33,12 @@ nav button{
     border: none;
     margin-left: 5px;
 }
+
 nav input{
     padding: 10px;
     border: solid #E55473 2px;
     border-radius: 2px;
 }
-
 
 .primary-color {
     color: #E55473;
@@ -69,15 +68,12 @@ nav input{
     justify-content: space-between;
 }
 
-
-
 .banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-
 
 .item-description {
     color: #27272799;
@@ -100,28 +96,6 @@ nav input{
     margin-bottom: 20px;
 }
 
-
-/* Sale Section styles */
-.sale-container {
-    background: #E554731A;
-    display: flex;
-    justify-content: space-around;
-    gap: 50px;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    margin: 100px 0px 0px;
-    padding: 50px 100px;
-}
-
-
-
-.item-title {
-    font-size: 40px;
-    font-weight: 800;
-    margin-top: 5px;
-    margin-bottom: 16px;
-}
 
 /* featured flower */
 
@@ -173,38 +147,65 @@ nav input{
     height: 90%;
 }
 
-
 .flower-div div h5 {
     color: #272727d7;
     text-align: center;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 16px;
     text-decoration-line: underline;
 }
 
 
-/* Footer */
+/* Service section */
 
-.footer-column {
-    padding: 130px;
-    background-color: #111010;
+.service-container{
+    margin: 0px 120px 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+}
+
+.service-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-div h5{
+    color: #272727cc;
     text-align: center;
-
-}
-
-.footer-item-description {
-    color: #ffffff66;
-    font-size: 16px;
-}
-
-.footer-item-heading {
-    color: #fffff6e6;
     font-size: 18px;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+
 }
 
+
+/* Discount Section styles */
+
+.sale-container {
+    background: #E554731A;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin: 100px 0px 0px;
+    padding: 50px 100px;
+}
+
+.item-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
 
 
 /* Instagram */
@@ -234,7 +235,7 @@ nav input{
 /* Subscribe Section */
 
 .sub-container{
-    margin: 0px 100px 100px;
+    margin: 0px 118px 100px;
     display: flex;
     background-image: url('../flower-asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -254,37 +255,28 @@ nav input{
     border-radius: 8px;
 }
 
-
 .sub-header{
     padding: 0px 0px 20px;
     text-align: center;
 }
 
 
-/* Service section */
+/* Footer */
 
-.service-container{
-    margin: 0px 100px 100px;
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(39, 39, 39, 0.05);
-    border-radius: 8px;
-}
-
-.service-div{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-.service-div h5{
-    color: #272727cc;
+.footer-column {
+    padding: 130px;
+    background-color: #111010;
     text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 16px;
 
+}
+
+.footer-item-description {
+    color: #ffffff66;
+    font-size: 16px;
+}
+
+.footer-item-heading {
+    color: #fffff6e6;
+    font-size: 18px;
+    font-weight: 400;
 }
